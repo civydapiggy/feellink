@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>FeelLink · Social Bridges for Autistic Children</title>
+  <title>FeelLink · Non-profit Science-based Toys for Autistic Children</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <style>
@@ -55,32 +55,10 @@
       gap: 8px;
     }
 
-    .logo-mark {
-      width: 32px;
-      height: 32px;
-      border-radius: 10px;
-      background: var(--brand);
-      color: #fff;
-      font-weight: 700;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 18px;
-    }
-
-    .logo-text {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .logo-text-main {
-      font-weight: 700;
-      font-size: 16px;
-    }
-
-    .logo-text-sub {
-      font-size: 11px;
-      color: var(--text-muted);
+    .logo img {
+      height: 42px;
+      width: auto;
+      display: block;
     }
 
     .nav {
@@ -264,14 +242,6 @@
       background: var(--brand-soft);
     }
 
-    .donate-section h2 {
-      margin-bottom: 4px;
-    }
-
-    .donate-section p {
-      margin-bottom: 10px;
-    }
-
     /* About section */
 
     .about-cols {
@@ -334,167 +304,195 @@
     }
   </style>
 </head>
+
 <body>
   <div class="shell">
+
+    <!-- HEADER -->
     <header class="site-header">
       <div class="logo">
-        <div class="logo-mark">F</div>
-        <div class="logo-text">
-          <span class="logo-text-main">FeelLink</span>
-          <span class="logo-text-sub">Social bridges through play</span>
-        </div>
+        <img src="logo.png" alt="FeelLink logo" />
       </div>
+
       <nav class="nav">
-        <!-- 这些锚点只是滚动到同一页不同位置 -->
         <a href="#mission" class="nav-link">Mission</a>
         <a href="#products" class="nav-link">Products</a>
         <a href="#about" class="nav-link">About</a>
-        <a href="https://YOUR-DONATION-LINK"
-           class="btn-donate">Donate</a>
+        <a href="https://YOUR-DONATION-LINK" class="btn-donate">Donate</a>
       </nav>
     </header>
 
-    <main>
-      <!-- Hero -->
-      <section class="hero" id="top">
-        <span class="hero-tagline">精于心 · 简于形</span>
-        <h1>Building gentle social bridges for autistic children and their families.</h1>
-        <p>
-          FeelLink designs simple, responsive toys that help autistic children
-          notice, express and share emotions — turning the first eye contact,
-          first smile, or first response into a moment families can repeat.
-        </p>
-        <div class="hero-actions">
-          <a href="https://YOUR-DONATION-LINK" class="btn-primary">Donate to FeelLink</a>
-          <a href="#mission" class="btn-secondary">Learn how it works</a>
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <span class="hero-tagline">Precision in care · Simplicity in form</span>
+
+      <h1>
+        Creating reliable, research-driven play tools to support autistic children — 
+        with a permanent non-profit commitment.
+      </h1>
+
+      <p>
+        FeelLink is a non-profit organization dedicated to designing and manufacturing safe, 
+        research-based interactive toys for autistic children.  
+        We turn scientific insights into practical, everyday tools that families and professionals 
+        can use safely and consistently — always centering reliability, clarity and long-term accessibility.
+      </p>
+
+      <div class="hero-actions">
+        <a href="https://YOUR-DONATION-LINK" class="btn-primary">Donate to FeelLink</a>
+        <a href="#mission" class="btn-secondary">Learn our approach</a>
+      </div>
+    </section>
+
+    <!-- MISSION -->
+    <section id="mission">
+      <h2>Our approach</h2>
+      <p>
+        We follow a responsible and science-guided development process:
+      </p>
+
+      <ul style="margin-top:8px;margin-left:16px;font-size:14px;color:var(--text-main);">
+        <li>We begin with research to understand the sensory, communication and developmental needs of autistic children.</li>
+        <li>We design, prototype and test interactive toys that are safe, predictable and easy to use.</li>
+        <li>We consult with doctors, therapists, clinical institutions and special-needs educators to refine every design.</li>
+        <li>After professional validation, we raise funding to manufacture the toys at scale.</li>
+        <li>Through partner charities, we donate these toys to families in need and gather feedback to improve further.</li>
+      </ul>
+
+      <!-- MILESTONES -->
+      <div class="milestones">
+        <div class="milestone-item">
+          <div class="milestone-number">50</div>
+          <div class="milestone-label">PROFESSIONAL CONSULTATIONS</div>
+          <p class="milestone-text">
+            Consult at least 50 therapists, educators and clinicians to validate and refine our designs.
+          </p>
         </div>
-      </section>
 
-      <!-- Mission + Milestones -->
-      <section id="mission">
-        <h2>Our mission</h2>
-        <p>
-          Many autistic children live in a very quiet world. They may not answer
-          when you call, or show feelings in ways adults can easily read.
-          FeelLink exists to offer one more concrete tool: play experiences
-          that invite shared response between a child and the people who love them.
-        </p>
-
-        <!-- 里程碑数字，先用占位数据，之后你可以改 -->
-        <div class="milestones">
-          <div class="milestone-item">
-            <div class="milestone-number">760,000</div>
-            <div class="milestone-label">INTERACTIONS</div>
-            <p class="milestone-text">
-              Cumulative play interactions inspired by FeelLink concepts and pilots.
-            </p>
-          </div>
-          <div class="milestone-item">
-            <div class="milestone-number">330,000</div>
-            <div class="milestone-label">SESSIONS</div>
-            <p class="milestone-text">
-              Guided sessions helping children practice emotional recognition and turn-taking.
-            </p>
-          </div>
-          <div class="milestone-item">
-            <div class="milestone-number">8,000</div>
-            <div class="milestone-label">CAREGIVERS</div>
-            <p class="milestone-text">
-              Parents, teachers and therapists learning to use social-bridge play tools.
-            </p>
-          </div>
+        <div class="milestone-item">
+          <div class="milestone-number">1,000</div>
+          <div class="milestone-label">TOYS FUNDED</div>
+          <p class="milestone-text">
+            Raise the funding needed to produce 1,000 professionally validated interactive toys.
+          </p>
         </div>
-      </section>
 
-      <!-- Products / tools -->
-      <section id="products">
-        <h2>What we build</h2>
-        <p>
-          Our tools are intentionally minimal in form, but rich in the way they
-          respond to touch, sound and shared play.
-        </p>
-
-        <div class="cards-grid">
-          <article class="card">
-            <h3 class="card-title">FeelLink Emotion Piano</h3>
-            <p class="card-tagline">
-              A pixel piano that “wakes up” with the child — and shines brighter with a parent.
-            </p>
-            <ul>
-              <li>Basic lights and tones when the child plays alone.</li>
-              <li>Special smiles and richer feedback only when a caregiver joins.</li>
-              <li>Designed to practice shared attention and simple turn-taking.</li>
-            </ul>
-          </article>
-
-          <article class="card">
-            <h3 class="card-title">Social Bridge Play Modes</h3>
-            <p class="card-tagline">
-              Interaction logic that rewards togetherness, not just solo skills.
-            </p>
-            <ul>
-              <li>Solo mode: predictable responses to build a sense of safety.</li>
-              <li>Child + parent mode: extra emotional cues and animations.</li>
-              <li>Family mode: the fullest experience when more people join.</li>
-            </ul>
-          </article>
+        <div class="milestone-item">
+          <div class="milestone-number">FREE</div>
+          <div class="milestone-label">DISTRIBUTION</div>
+          <p class="milestone-text">
+            Donate toys to families in need through partner charities and gather real-world feedback.
+          </p>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Donate -->
-      <section class="donate-section" id="donate">
-        <h2>Why your donation matters</h2>
-        <p>
-          Donations help us prototype, test and distribute low-cost emotional
-          learning toys to autistic children and their families. We focus on:
-        </p>
-        <ul style="margin-top:6px;margin-left:16px;font-size:13px;color:var(--text-main);">
-          <li>Subsidising pilot kits for families who cannot afford new tools.</li>
-          <li>Working with therapists and educators to refine play patterns.</li>
-          <li>Sharing our learnings openly so other makers and NGOs can build on them.</li>
-        </ul>
-        <div style="margin-top:10px;">
-          <a href="https://YOUR-DONATION-LINK" class="btn-primary">
-            Donate to FeelLink
-          </a>
+    <!-- PRODUCTS -->
+    <section id="products">
+      <h2>What we build</h2>
+      <p>
+        We design interactive toys that respond gently, predictably and meaningfully — helping autistic 
+        children practice emotional understanding, communication and shared attention.
+      </p>
+
+      <div class="cards-grid" style="margin-top:12px;">
+
+        <article class="card">
+          <h3 class="card-title">FeelLink Emotion Piano</h3>
+          <p class="card-tagline">
+            A pixel-based musical toy that responds differently to solo play and shared play.
+          </p>
+          <ul>
+            <li>Gentle sounds and predictable lights during solo use, supporting a sense of safety.</li>
+            <li>Enhanced expressions and richer feedback when a caregiver joins.</li>
+            <li>Useful in daily routines and therapy sessions.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3 class="card-title">Social-Bridge Play Modes</h3>
+          <p class="card-tagline">
+            Interaction logic that rewards cooperation rather than only individual performance.
+          </p>
+          <ul>
+            <li>Solo mode — low sensory load and consistent responses.</li>
+            <li>Child + adult mode — emotional cues, smiles and supportive animations.</li>
+            <li>Group mode — fullest patterns when several people play together.</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- DONATE -->
+    <section class="donate-section" id="donate">
+      <h2>Why your donation matters</h2>
+      <p>
+        As a permanent non-profit organization, FeelLink directs all donations into research, prototyping 
+        and low-cost manufacturing.
+      </p>
+
+      <ul style="margin-top:6px;margin-left:16px;font-size:13px;color:var(--text-main);">
+        <li>Produce professionally validated toys for pilot families.</li>
+        <li>Improve designs through feedback from autistic children and specialists.</li>
+        <li>Partner with charities to provide free distribution.</li>
+      </ul>
+
+      <div style="margin-top:10px;">
+        <a href="https://YOUR-DONATION-LINK" class="btn-primary">Donate to FeelLink</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About FeelLink</h2>
+
+      <div class="about-cols">
+
+        <div>
+          <h3>Who we are</h3>
+          <p>
+            FeelLink is a design-driven non-profit team focused on creating safe, science-grounded interactive 
+            toys for autistic children.  
+            We collaborate with families, therapists, educators and clinical professionals to ensure our work stays 
+            respectful, practical and grounded in real needs.
+          </p>
         </div>
-      </section>
 
-      <!-- About -->
-      <section id="about">
-        <h2>About FeelLink</h2>
-        <div class="about-cols">
-          <div>
-            <h3>Who we are</h3>
-            <p>
-              FeelLink is a small design-driven initiative exploring how
-              physical toys and simple interactions can support autistic
-              children and their caregivers. We collaborate with families,
-              therapists and educators to keep our work grounded in real life.
-            </p>
-          </div>
-          <div>
-            <h3>How to connect</h3>
-            <p>
-              If you are a parent, therapist, school or NGO interested in
-              piloting our tools or co-creating new ones, we would love to hear from you.
-              <br/><br/>
-              Email: <a href="mailto:hello@feellink.org">hello@feellink.org</a>
-            </p>
-          </div>
+        <div>
+          <h3>How to connect</h3>
+          <p>
+            We welcome collaboration with parents, therapists, educators, charities and community organizations.  
+            If you are interested in piloting our toys or supporting our work, please contact:  
+            <br><br>
+            Email: <a href="mailto:hello@feellink.org">hello@feellink.org</a>
+          </p>
         </div>
-      </section>
-    </main>
 
+      </div>
+
+      <div style="margin-top:18px;font-size:14px;color:var(--text-muted);">
+        <strong>Our permanent non-profit commitment:</strong><br>
+        FeelLink is, and will always remain, a non-profit initiative.  
+        We do not sell our toys.  
+        Every donation and every hour of work goes solely to creating safe, science-based tools for autistic children 
+        and giving them away for free.
+      </div>
+
+    </section>
+
+    <!-- FOOTER -->
     <footer>
       <span>© <span id="year"></span> FeelLink.</span>
-      <span>Built with care for autistic children and their families.</span>
+      <span>Built for autistic children and their families.</span>
     </footer>
+
   </div>
 
   <script>
-    // 动态年份
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+
 </body>
 </html>
+
