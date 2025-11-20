@@ -100,6 +100,21 @@
       opacity: 0.9;
     }
 
+    /* Banner */
+
+    .banner-wrapper {
+      margin-top: 10px;
+    }
+
+    .banner {
+      width: 100%;
+      height: auto;
+      max-height: 360px;
+      border-radius: 20px;
+      display: block;
+      object-fit: cover; /* 防止拉伸 */
+    }
+
     /* Hero */
 
     .hero {
@@ -275,7 +290,7 @@
       }
 
       .hero {
-        padding-top: 28px;
+        padding-top: 24px;
       }
 
       .hero h1 {
@@ -318,6 +333,13 @@
         <a href="#" class="btn-donate">Donate</a> <!-- TODO: 换成真实捐赠链接 -->
       </nav>
     </header>
+
+    <!-- BANNER -->
+    <div class="banner-wrapper">
+      <img src="banner.png"
+           alt="Abstract connection structure illustration for FeelLink"
+           class="banner" />
+    </div>
 
     <!-- HERO -->
     <section class="hero" id="top">
@@ -483,6 +505,7 @@
   </script>
 </body>
 </html>
+
 
 
 
